@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script> -->
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="https://github.com/veryar/veryar.github.io/blob/develop/apple-touch-icon.png?raw=true">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://raw.githubusercontent.com/veryar/veryar.github.io/bd04a821bfe0a6e8c2d7df4e63c230de9785c9c8/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="hhttps://github.com/veryar/veryar.github.io/blob/develop/favicon-16x16.png?raw=true">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon"
+        href="https://raw.githubusercontent.com/veryar/veryar.github.io/5e77fed2565db949bf8825f835159a69cd1912d0/safari-pinned-tab.svg"
+        color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>VIVI WORLD</title>
+    <meta charset="utf-8">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+         * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .card_animation {
+            display: flex;
+        }
+
+        .card_animation li {
+            flex: 1;
+            height: 80vh;
+            text-align: center;
+            line-height: 80vh;
+            font-size: 50px;
+            transition: all .5s;
+            background: no-repeat center / cover;
+        }
+
+        .card_animation li:hover {
+            flex: 2;
+            font-size: 70px;
+            color: #fff;
+            text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+        }
+
+        .card_animation li:not(:hover) {
+            flex: 0.7;
+        }
+
+        .card_animation li:nth-child(1) {
+            background-image: url(vivi4_1.jpg);
+        }
+
+        .card_animation li:nth-child(2) {
+            background-image: url(vivi3_1.jpg);
+        }
+
+        .card_animation li:nth-child(3) {
+            background-image: url(vivi2_1.jpg);
+        }
+
+        .card_animation li:nth-child(4) {
+            background-image: url(vivi5_1.jpg);
+        }
+
+
+        .box {
+            width: 80px;
+            height: 30px;
+            background-color: salmon;
+            animation-name: box_ani;
+            animation-duration: 1s;
+            animation-iteration-count: 100;
+            animation-direction: alternate;
+            animation-delay: 0.1s;
+            animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+        }
+
+        @keyframes box_ani {
+            from {
+                margin-left: 0;
+            }
+
+            to {
+                margin-left: 560px;
+            }
+        }
+
+
+
+        a {
+            color: rgb(38, 110, 0);
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            font-family: verdana;
+            color: rgb(77, 255, 33);
+        }
+
+        #active {
+            color: aqua;
+        }
+
+        .saw {
+            color: blue;
+        }
+
+        .active {
+            color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+    <h1>
+        <a href="index.html"><img src="https://raw.githubusercontent.com/veryar/veryar.github.io/e9a9e6c4475b440d2cb5e99ee8f65773a2d0dc53/android-chrome-192x192.png"
+                width="60" height="60" /></a>
+
+        <a href="index.html">VIVI WORLD<em style="font-size:30px;" "font-color=blue;">(pc버전)</em></a>
+        <hr>
+    </h1>
+    <button type="button" onclick="javascript:alert('2017년 03월 17일');">브렌치4커밋비비생일</button>
+
+    <ul class="card_animation">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <div class="box"></div>
+    <img src="https://github.com/veryar/veryar.github.io/blob/main/vivi1_2.jpg?raw=true" width="660px" height="670px"
+        alt="vivi">
+    <div class="box"></div>
+
+    <h1><a href="first.html" font-family: 'Nanum Pen Script' , cursive;> 남의개 </a></h1>
+
+    <!-- <div class="stopwatch">
+        <h1>yalco stopwatch</h1>
+        <div class="stopwatch__interface">
+            <span id="screen">00:00:00</span>
+            <button id="button">▶</button>
+        </div>
+    </div> -->
+
+
+
+    <!-- 
+    <ol>
+        <li><a href="1.html" class="saw">HTML</a></li>
+        <li><a href="2.html" style="color:red;text-decoration:underline">CSS</a></li>
+        <li><a href="3.html" class="saw active">JavaScript</a></li>
+        <li><a href="4.html" class="saw" id="active">flutter</a></li>
+    </ol>
+
+
+    <header>
+        <h1>[사이트 제목]</h1>
+        <h2>[사이트 부제목]</h2>
+        <nav>
+            <ul>
+                <li>[메뉴1]</li>
+                <li>[메뉴2]</li>
+                <li>[메뉴3]</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <p>[본문 내용]</p>
+        </article>
+    </main>
+    <aside>
+        [사이드바 내용]
+    </aside>
+    <footer>
+        <address>[주소 내용]</address>
+    </footer>
+    <mark>eee</mark>
+    <hr>
+
+    <h1>1단계</h1>
+    <h2>2단계</h2>
+    <h3>3단계</h3>
+    <h4>4단계</h4>
+    <h5>5단계</h5>
+    <h6>6단계</h6>
+    <p>이 밑에 빈 공간이 있습니다.</p>
+    <p>이 위에 빈 공간이 있습니다.</p>
+    <b>굵게 표시됩니다.</b><br>
+    <i>기울임꼴로 표시됩니다.</i><br>
+    <strong>강하게 강조합니다.</strong><br>
+    <em>약하게 강조합니다.</em><br>
+    <ins>밑줄이 표시됩니다.</ins><br>
+    <del>취소선이 표시됩니다.</del><br>
+    <s>나도 취소선</s><br>
+    밑줄이 표시<u>됐</u>습니다.<br>
+    <sup>: 텍스트를 위첨자(superscript)로 표시한다.<br>
+        <sub>: 텍스트를 아래첨자(subscript)로 표시한다.<br>
+            E=MC<sup>2</sup><br>
+            H<sub>2</sub>O는 산소가 아닌 물입니다.<br>
+            YP<sub>B</sub>P<sub>R</sub><br>
+            나무위키는 위키위키입니다.<br>
+            <small>그렇군요.</small><br>
+            이 밑에 가로줄이 있습니다.
+            <hr>
+            이 위에 가로줄이 있습니다.
+            <br>
+            <ul>
+                　　<li>순서가 없는 첫번째 항목입니다.</li>
+                　　<li>순서가 없는 두번째 항목입니다.</li>
+            </ul>
+            <ol>
+                　　<li>순서가 있는 첫번째 항목입니다.</li>
+                　　<li>순서가 있는 두번째 항목입니다.</li>
+            </ol>
+            <ul>
+                　　<li>첫 번째</li>
+                　　<li>두 번째
+                    　　　　<ul>
+                        　　　　　　<li>두 번째 속 첫 번째</li>
+                        　　　　　　<li>두 번째 속 두 번째</li>
+                        　　　　</ul>
+                    　　</li>
+            </ul>
+            <ul>
+                　　<li>가나다</li>
+                　　<li>라마바
+                    　　　　<ol>
+                        　　　　　　<li>사아자</li>
+                        　　　　　　<li>차카타</li>
+                        　　　　</ol>
+                    　　</li>
+                　　<li>파하</li>
+            </ul>
+            <a href="https://disqus.com">채팅프로그램</a><br>
+            <br>
+            <table>
+                　　<tr>
+                    　　　　<td>A1</td>
+                    　　　　<td>B1</td>
+                    　　　　<td>C1</td>
+                    　　</tr>
+                　　<tr>
+                    　　　　<td>A2</td>
+                    　　　　<td>B2</td>
+                    　　　　<td>C2</td>
+                    　　</tr>
+            </table>
+            <br>
+            <table>
+                　　<tr>
+                    　　　　<th>A</th>
+                    　　　　<th>B</th>
+                    　　　　<th>C</th>
+                    　　</tr>
+                　　<tr>
+                    　　　　<td>A1</td>
+                    　　　　<td>B1</td>
+                    　　　　<td>C1</td>
+                    　　</tr>
+            </table>
+            <br>
+
+            <table>
+                　　<tr>
+                    　　　　<th> </th>
+                    　　　　<th>월</th>
+                    　　　　<th>수</th>
+                    　　　　<th>금</th>
+                    　　</tr>
+                　　<tr>
+                    　　　　<th>1교시</th>
+                    　　　　<td rowspan="2">국어</td>
+                    　　　　<td>수학</td>
+                    　　　　<td>영어</td>
+                    　　</tr>
+                　　<tr>
+                    　　　　<th>2교시</th>
+                    　　　　-->
+
+    <!-- 병합되었으므로 쓰지 않습니다. -->
+    <!--
+                    　　　　<td>과학</td>
+                    　　　　<td>사회</td>
+                    　　
+                </tr>
+            </table>
+
+            <br>
+            <img src="https://images.unsplash.com/photo-1658129222413-f9a2f277e76f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+                width="550" height="500" alt="나무의자">
+            <img src="https://images.unsplash.com/photo-1658270103946-cd2af3a4392a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                width="550" height="500" alt="우주">
+-->
+
+</body>
+
+</html>
