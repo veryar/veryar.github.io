@@ -1,105 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
-  
 
- * {
+
+* {
   box-sizing: border-box;
 }
 
 
 body {
-  background:white;
-  height:100%;
-  margin:0;
+  background: white;
+  height: 100%;
+  margin: 0;
 }
-#main {
-  width:100%;    
-  height:100%;
-  background:#fff;
-}
-aside {
-  float:left;
-  width:300px;    
-  padding:20px 50px;
-  height:100%;
-  background:rgb(216, 216, 216);
-}
-li,p {
-  line-height: 2.0;
-  font-size:0.9em;
-}
-.pf {
-  border-radius:10%;
-  box-shadow:3px 3px 10px 2px #222;
 
-} 
+#main {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+aside {
+  float: left;
+  width: 300px;
+  padding: 20px 50px;
+  height: 100%;
+  background: rgb(216, 216, 216);
+}
+
+li,
+p {
+  line-height: 2.0;
+  font-size: 0.9em;
+}
+
+.pf {
+  border-radius: 10%;
+  box-shadow: 3px 3px 10px 2px #222;
+
+}
+
 #detail {
   position: relative;
-  top:80px;
+  top: 80px;
 }
-#sns
-{
-  position:relative;
-  top:100px;
+
+#sns {
+  position: relative;
+  top: 100px;
 }
 
 
-section > p, section>table {
-  margin-left:50px;
+section>p,
+section>table {
+  margin-left: 50px;
 }
 
 /* 글자스타일 */
 aside h1 {
-  font-size:1.8em;
+  font-size: 1.8em;
   font-variant: small-caps;
 }
+
 aside h2 {
-  font-size:1.2em;
+  font-size: 1.2em;
 }
+
 #namecard p {
-  font-size:0.9em;
-  color:rgb(99, 99, 99);
+  font-size: 0.9em;
+  color: rgb(99, 99, 99);
   /* font-style:italic; */
 }
 
 .subtitle {
-  font-size:1.5em;
+  font-size: 1.5em;
   /* padding-left:45px; */
-  line-height:0.9em;
+  line-height: 0.9em;
 }
+
 .subtitle::before {
-  content:"";
-  display:block;
-  background:url("../images/note.png") no-repeat;
-  width:24px;
-  height:24px;
-  float:left;
-  margin:0 15px 0 0;
+  content: "";
+  display: block;
+  background: url("../images/note.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin: 0 15px 0 0;
 }
-section > p {
-  font-size:0.9em;
+
+section>p {
+  font-size: 0.9em;
 }
 
 .label {
-  display:inline-block;
-  width:80px;
-  color:purple;
-  font-weight:bold;
+  display: inline-block;
+  width: 80px;
+  color: purple;
+  font-weight: bold;
 }
 
 meter {
-  width:200px;
-  margin-right:10px;    
+  width: 200px;
+  margin-right: 10px;
 }
 
 #container {
-  position:relative;
-  left:1%;
-  width:900px;
-  height:100%;
+  position: relative;
+  left: 1%;
+  width: 900px;
+  height: 100%;
   /* margin-left:-450px; */
-  
+
 }
 
 
@@ -119,197 +130,195 @@ meter {
 }
 */
 
-#main > section {
-  width:500px;
-  padding:20px;
-  margin:10px;
-  border-bottom:1px dotted #222;
+#main>section {
+  width: 500px;
+  padding: 20px;
+  margin: 10px;
+  border-bottom: 1px dotted #222;
 }
 
 
 .subtitle {
-  font-size:1.5em;
+  font-size: 1.5em;
   /* padding-left:45px; */
-  line-height:0.9em;
+  line-height: 0.9em;
 }
 
 
-        /* * {
+/* * {
             padding: 0;
             margin: 0;
             list-style: none;
         }*/
 
-        .card_animation {
-            display: flex;
-        }
+.card_animation {
+  display: flex;
+}
 
-        .card_animation li {
-            flex: 1;
-            height: 60vh;
-            text-align: center;
-            line-height: 60vh;
-            font-size: 30px;
-            transition: all .5s;
-            background: no-repeat center / cover;
-        }
+.card_animation li {
+  flex: 1;
+  height: 60vh;
+  text-align: center;
+  line-height: 60vh;
+  font-size: 0px;
+  transition: all .5s;
+  background: no-repeat center / cover;
+}
 
-        .card_animation li:hover {
-            flex: 2;
-            font-size: 70px;
-            color: #fff;
-            text-shadow: 0 0 5px rgba(0, 0, 0, .5);
-        }
+.card_animation li:hover {
+  flex: 2;
+  font-size: 0px;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
 
-        .card_animation li:not(:hover) {
-            flex: 1;
-        }
+.card_animation li:not(:hover) {
+  flex: 1;
+}
 
-        .card_animation li:nth-child(1) {
-            background-image: url(../img/vivi4_1.jpg);
-        }
+.card_animation li:nth-child(1) {
+  background-image: url(../img/vivi4_1.jpg);
+}
 
-        .card_animation li:nth-child(2) {
-            background-image: url(../img/vivi3_1.jpg);
-        }
+.card_animation li:nth-child(2) {
+  background-image: url(../img/vivi3_1.jpg);
+}
 
-        .card_animation li:nth-child(3) {
-            background-image: url(../img/vivi2_1.jpg);
-        }
+.card_animation li:nth-child(3) {
+  background-image: url(../img/vivi2_1.jpg);
+}
 
-        .card_animation li:nth-child(4) {
-            background-image: url(../img/vivi5_1.jpg);
-        }
+.card_animation li:nth-child(4) {
+  background-image: url(../img/vivi5_1.jpg);
+}
 
-        .card_animation {
-            display: flex;
-        }
+.card_animation {
+  display: flex;
+}
 
-        .card_animation li {
-            flex: 1;
-            height: 60vh;
-            text-align: center;
-            line-height: 60vh;
-            font-size: 30px;
-            transition: all .5s;
-            background: no-repeat center / cover;
-        }
+.card_animation li {
+  flex: 1;
+  height: 60vh;
+  text-align: center;
+  line-height: 60vh;
+  font-size: 0px;
+  transition: all .5s;
+  background: no-repeat center / cover;
+}
 
-        .card_animation li:hover {
-            flex: 2;
-            font-size: 70px;
-            color: #fff;
-            text-shadow: 0 0 5px rgba(0, 0, 0, .5);
-        }
+.card_animation li:hover {
+  flex: 2;
+  font-size: 70px;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
 
-        .card_animation li:not(:hover) {
-            flex: 1;
-        }
+.card_animation li:not(:hover) {
+  flex: 1;
+}
 
-        .card_animation li:nth-child(1) {
-            background-image: url(../img/vivi4_1.jpg);
-        }
+.card_animation li:nth-child(1) {
+  background-image: url(../img/vivi4_1.jpg);
+}
 
-        .card_animation li:nth-child(2) {
-            background-image: url(../img/vivi3_1.jpg);
-        }
+.card_animation li:nth-child(2) {
+  background-image: url(../img/vivi3_1.jpg);
+}
 
-        .card_animation li:nth-child(3) {
-            background-image: url(../img/vivi2_1.jpg);
-        }
+.card_animation li:nth-child(3) {
+  background-image: url(../img/vivi2_1.jpg);
+}
 
-        .card_animation li:nth-child(4) {
-            background-image: url(../img/vivi5_1.jpg);
-        }
-
-
-
-
-
-
-        .card_animation2 {
-          display: flex;
-      }
-
-      .card_animation2 li {
-          flex: 1;
-          height: 60vh;
-          text-align: center;
-          line-height: 60vh;
-          font-size: 30px;
-          transition: all .5s;
-          background: no-repeat center / cover;
-      }
-
-      .card_animation2 li:hover {
-          flex: 2;
-          font-size: 70px;
-          color: #fff;
-          text-shadow: 0 0 5px rgba(0, 0, 0, .5);
-      }
-
-      .card_animation2 li:not(:hover) {
-          flex: 1;
-      }
-      
-      .card_animation2 li:nth-child(3) {
-          background-image: url(../img/vivi2_1.jpg);
-      }
-
-      .card_animation2 li:nth-child(4) {
-          background-image: url(../img/vivi5_1.jpg);
-      }
+.card_animation li:nth-child(4) {
+  background-image: url(../img/vivi5_1.jpg);
+}
 
 
 
 
 
-        .box {
-            width: 80px;
-            height: 10px;
-            background-color: salmon;
-            animation-name: box_ani;
-            animation-duration: 2s;
-            animation-iteration-count: 100;
-            animation-direction: alternate;
-            animation-delay: 0.1s;
-            animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
-        }
 
-        @keyframes box_ani {
-            from {
-                margin-left: 0;
-            }
+.card_animation2 {
+  display: flex;
+}
 
-            to {
-                margin-left: 470px;
-            }
-        }
+.card_animation2 li {
+  flex: 1;
+  height: 60vh;
+  text-align: center;
+  line-height: 60vh;
+  font-size: 30px;
+  transition: all .5s;
+  background: no-repeat center / cover;
+}
 
+.card_animation2 li:hover {
+  flex: 2;
+  font-size: 70px;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
 
+.card_animation2 li:not(:hover) {
+  flex: 1;
+}
 
-        a {
-            color: magenta;
-            text-decoration: none;
-        }
+.card_animation2 li:nth-child(3) {
+  background-image: url(../img/vivi2_1.jpg);
+}
 
-        h1 {
-            font-size: 40px;
-            text-align: left;
-            font-family: verdana;
-            color: magenta;
-        }
-
-        #active {
-            color: aqua;
-        }
-
-        .saw {
-            color: blue;
-        }
-
-        .active {
-            color: yellowgreen;
-        }
+.card_animation2 li:nth-child(4) {
+  background-image: url(../img/vivi5_1.jpg);
+}
 
 
+
+
+
+.box {
+  width: 80px;
+  height: 10px;
+  background-color: salmon;
+  animation-name: box_ani;
+  animation-duration: 2s;
+  animation-iteration-count: 100;
+  animation-direction: alternate;
+  animation-delay: 0.1s;
+  animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+@keyframes box_ani {
+  from {
+    margin-left: 0;
+  }
+
+  to {
+    margin-left: 470px;
+  }
+}
+
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: left;
+  font-family: verdana;
+  color: magenta;
+}
+
+#active {
+  color: aqua;
+}
+
+.saw {
+  color: blue;
+}
+
+.active {
+  color: yellowgreen;
+}
