@@ -4,17 +4,33 @@
   
 #container {
   position:relative;
-  left:50%;
+  left:30%;
   margin-left:-450px;
   width:900px;
   height:100%;
 }
+/*
 #main {
   width:100%;    
   height:100%;
   background:#fff;
 }
+*/
+/*
+#main {
+  float:right;
+  width:600px;
+  height:100%;
+  padding:20px;
+}
+*/
 
+#main > section {
+  width:500px;
+  padding:20px;
+  margin:10px;
+  border-bottom:1px dotted #222;
+}
 
 .subtitle {
   font-size:1.5em;
@@ -73,10 +89,10 @@
 
         .box {
             width: 80px;
-            height: 30px;
+            height: 10px;
             background-color: salmon;
             animation-name: box_ani;
-            animation-duration: 1s;
+            animation-duration: 2s;
             animation-iteration-count: 100;
             animation-direction: alternate;
             animation-delay: 0.1s;
@@ -89,7 +105,7 @@
             }
 
             to {
-                margin-left: 560px;
+                margin-left: 470px;
             }
         }
 
@@ -101,7 +117,7 @@
         }
 
         h1 {
-            font-size: 60px;
+            font-size: 50px;
             text-align: left;
             font-family: verdana;
             color: magenta;
