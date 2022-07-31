@@ -87,6 +87,88 @@
             background-image: url(../img/vivi5_1.jpg);
         }
 
+        .card_animation {
+            display: flex;
+        }
+
+        .card_animation li {
+            flex: 1;
+            height: 60vh;
+            text-align: center;
+            line-height: 60vh;
+            font-size: 30px;
+            transition: all .5s;
+            background: no-repeat center / cover;
+        }
+
+        .card_animation li:hover {
+            flex: 2;
+            font-size: 70px;
+            color: #fff;
+            text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+        }
+
+        .card_animation li:not(:hover) {
+            flex: 1;
+        }
+
+        .card_animation li:nth-child(1) {
+            background-image: url(../img/vivi4_1.jpg);
+        }
+
+        .card_animation li:nth-child(2) {
+            background-image: url(../img/vivi3_1.jpg);
+        }
+
+        .card_animation li:nth-child(3) {
+            background-image: url(../img/vivi2_1.jpg);
+        }
+
+        .card_animation li:nth-child(4) {
+            background-image: url(../img/vivi5_1.jpg);
+        }
+
+
+
+
+
+
+        .card_animation2 {
+          display: flex;
+      }
+
+      .card_animation2 li {
+          flex: 1;
+          height: 60vh;
+          text-align: center;
+          line-height: 60vh;
+          font-size: 30px;
+          transition: all .5s;
+          background: no-repeat center / cover;
+      }
+
+      .card_animation2 li:hover {
+          flex: 2;
+          font-size: 70px;
+          color: #fff;
+          text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+      }
+
+      .card_animation2 li:not(:hover) {
+          flex: 1;
+      }
+      
+      .card_animation2 li:nth-child(3) {
+          background-image: url(../img/vivi2_1.jpg);
+      }
+
+      .card_animation2 li:nth-child(4) {
+          background-image: url(../img/vivi5_1.jpg);
+      }
+
+
+
+
 
         .box {
             width: 80px;
