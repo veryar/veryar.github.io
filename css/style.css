@@ -3,9 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
   
 
-* {
+/* * {
   box-sizing: border-box;
 }
+*/
+
 body {
   background:white;
   height:100%;
@@ -132,11 +134,11 @@ meter {
 }
 
 
-        * {
+        /* * {
             padding: 0;
             margin: 0;
             list-style: none;
-        }
+        }*/
 
         .card_animation {
             display: flex;
